@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="client.js" defer></script>
+  </head>
+  <body>
+    <center>
+      <canvas id="mycanvas" width="500px" height="500px">
+      </canvas>
+      <div>
+        <label>
+          Resolution to triangulate:
+        </label>
+        <input type="number" id="resolution" value="1" min="2", max="12">
+      </div>
+      <div id="nav">
+        <div class="button" id="left">
+         &lt; Previous
+        </div>
+        <div class="button" id="right">
+          Next &gt;
+        </div>
+        <div class="clear">
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
